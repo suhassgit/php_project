@@ -1,4 +1,4 @@
-FROM python:3-onbuild
+FROM ubuntu
 RUN apt-get update
 COPY . /usr/src/app
 CMD ["python", "api.py"]
